@@ -10,6 +10,6 @@ A reducer is _a function that returns a piece of the allocation state_  You can 
 - Redux _Data contained in the application_.
 - React _Views contained in the application_.
 
-React/Redux _is a library that connects (bridges) React with Redux.  To do this we need to change (promote) one of our_ components _to a_ container.
+- React/Redux _is a library that connects (bridges) React with Redux.  To do this we need to change (promote) one of our_ components _to a_ container.
 
-- Container(smart component) _A container is a React component that has a direct connection to the state managed by Redux_.
+- Container(smart component) _A container is a React component that has a direct connection to the state managed by Redux_.  It is aware of the state that is contained by Redux.
