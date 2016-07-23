@@ -1,5 +1,5 @@
 ##   Reducer
-A reducer is _a function that returns a piece of the allocation state_  You can think of it as a javascript object:
+A reducer function is _a function that returns a piece of the allocation state_  You can think of it as a javascript object:
 `{
   books: [{title: 'Some Book'}, {title:'Some Other Book'}],
   activeBook: {title: 'Some Boring Book'}
@@ -7,8 +7,9 @@ A reducer is _a function that returns a piece of the allocation state_  You can 
   Reducers produce the value of the state(key) have a one to one pairing with the value of a key.
 
 ##   React/Redux
-- Redux _Data contained in the application_.
-- React _Views contained in the application_.
+- Redux _Data contained in the application_.  Redux serves to construct the application state.
+
+- React _Views contained in the application_.  React provides the view to display the states constructed by Redux.
 
 - React/Redux _is a library that connects (bridges) React with Redux.  To do this we need to change (promote) one of our_ components _to a_ container.
 
