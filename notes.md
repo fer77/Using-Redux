@@ -15,6 +15,6 @@ A reducer function is _a function that returns a piece of the allocation state_ 
 
 
 ##  Glossary
-- Action and Action Creators _is a function that returns an action_.  These functions are use to change our state, they return an object (action) that is sent to our _reducers_.  Reducers can "choose" to return a different "piece" of state, causing our components to re-render.
+- Action and Action Creators _is a function that returns an action_.  These functions are use to change our state, they return an object (action) that is sent to our _reducers_.  Reducers can "choose" to return a different "piece" of state, causing our components to re-render.  Actions have two values a type and a payload (it describes the action).
 
 - Container(smart component) _A container is a React component that has a direct connection to the state managed by Redux_.  It is aware of the state that is contained by Redux.
